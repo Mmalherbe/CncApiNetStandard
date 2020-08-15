@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>OosterhofDesign</RootNamespace>
+    <Company>Oosterhof-Design</Company>
+    <AssemblyVersion>1.4.3.52</AssemblyVersion>
+    <FileVersion>1.4.3.52</FileVersion>
+    <Version>1.4.3.52</Version>
+    <Authors>CncApiNetStandard</Authors>
+    <PackageId>CncApiNetStandard</PackageId>
+    <Product>CncApiNetStandard</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>2020</Copyright>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="www.oosterhof-design.com\**" />
+    <EmbeddedResource Remove="www.oosterhof-design.com\**" />
+    <None Remove="www.oosterhof-design.com\**" />
+  </ItemGroup>
+
+</Project>

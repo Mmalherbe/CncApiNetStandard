@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9pKCieAwo4xkwBs41MCQF57oDOxee34Tltkd5PYhvBCnFu+OL3kHOkYGJULqKLJJ+5YBYBg9EGiT+BE2I+RV4w==",
+  "success": true,
+  "projectFilePath": "F:\\S Oosterhof\\Mijn Documenten\\GitHub\\EdingCnc\\ApiWrappers\\CncApiNetStandard\\CncApiNet\\CncApiNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sander Oosterhof\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Sander Oosterhof\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

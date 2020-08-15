@@ -1,0 +1,24 @@
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.deps.json
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.dll
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.pdb
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfoInputs.cache
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfo.cs
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.dll
+C:\Users\Sander Oosterhof\source\repos\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.pdb
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.deps.json
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.dll
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.pdb
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfoInputs.cache
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfo.cs
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.dll
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.pdb
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.csproj.CoreCompileInputs.cache
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetStandard\CncApiNet\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.csprojAssemblyReference.cache
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.deps.json
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.dll
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\bin\Debug\netstandard2.0\CncApiNet.pdb
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfoInputs.cache
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.AssemblyInfo.cs
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.csproj.CoreCompileInputs.cache
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.dll
+F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.pdb
