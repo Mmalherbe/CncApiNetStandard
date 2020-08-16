@@ -108,8 +108,8 @@ namespace OosterhofDesign
     {
         private IntPtr _pointer;
         private readonly object LockObject_Pointer = new object();
-        private int _Id = 0;
-        public int Id { get => _Id; set => SetPropertyIfChanged(value, ref _Id); }
+        //private int _Id = 0;
+        //public int Id { get => _Id; set => SetPropertyIfChanged(value, ref _Id); }
         public int Size { get; }
         public bool NewPointer { get; }
 
