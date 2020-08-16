@@ -33,6 +33,10 @@ namespace OosterhofDesign
 
                     if (currentValue == null && VALUE != null || currentValue.GetType().Equals(VALUE) == false)
                     {
+                        DESTINATION = VALUE;
+                        OnPropertyChanged(PROPERTY_NAME);
+
+                        /*
                         if (currentValue == null && VALUE != null)
                         {
                             DESTINATION = VALUE;
@@ -79,13 +83,14 @@ namespace OosterhofDesign
                             if (Enumerable.SequenceEqual((T[])currentValue, (T[])newValue) == false)
                             {
 
-                            }*/
-                        }
+                            }
+                    }
+                       
                         else if (AllProperties[i].GetValue(this).Equals(VALUE) == false)
                         {
                             DESTINATION = VALUE;
                             OnPropertyChanged(PROPERTY_NAME);
-                        }
+                        }*/
                     }
                     break;
                 }
