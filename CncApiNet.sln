@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CncApiNet", "CncApiNet.csproj", "{4DC63309-AFE6-4399-A432-59E1714D60D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CncApiNet", "CncApiNet\CncApiNet.csproj", "{FC8EF42E-2A52-49BB-93F0-6FC2F71575F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DC63309-AFE6-4399-A432-59E1714D60D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DC63309-AFE6-4399-A432-59E1714D60D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DC63309-AFE6-4399-A432-59E1714D60D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DC63309-AFE6-4399-A432-59E1714D60D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8EF42E-2A52-49BB-93F0-6FC2F71575F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8EF42E-2A52-49BB-93F0-6FC2F71575F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8EF42E-2A52-49BB-93F0-6FC2F71575F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8EF42E-2A52-49BB-93F0-6FC2F71575F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A30E25B6-703B-4C83-8B8F-F5A515EC8722}
+		SolutionGuid = {D850569F-9C73-41B9-9C7A-10FA3A6F1B7A}
 	EndGlobalSection
 EndGlobal

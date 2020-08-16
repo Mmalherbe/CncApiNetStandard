@@ -4,6 +4,7 @@ using System.Text;
 using System.Reflection;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
+using System.Linq;
 namespace OosterhofDesign
 {
     public class PropertyChangedEvent : INotifyPropertyChanged
@@ -186,6 +187,23 @@ namespace OosterhofDesign
         {
             return Size;
         }
+        internal static int GetPointerSizeFromType(Type CNC_TYPE)
+        {
+            int returnResult = 0;
+
+            Type enumOffsetType = CNC_TYPE.Assembly.GetTypes().Where((T) => T.Name == "Offst_" + CNC_TYPE.Name).FirstOrDefault();
+
+            if (enumOffsetType != null && enumOffsetType.IsEnum == true)
+            {
+                returnResult = Convert.ToInt32(enumOffsetType.GetField("TotalSize").GetValue(null));
+            }
+            else
+            {
+                throw new ArgumentException("Cannot find the Offst_"+CNC_TYPE.Name+" enum type for:"+CNC_TYPE.Name);
+            }
+
+            return returnResult;
+        }
 
         public void ResetData()
         {
@@ -243,7 +261,7 @@ namespace OosterhofDesign
             {
                 if (CNC_REF_OBJECTS[i] == null)
                 {
-                    CNC_REF_OBJECTS[i] = (IMemoryManagement)Activator.CreateInstance(TYPE, new object[] { ((Pointer + OFFSET) + (CNC_REF_OBJECTS[i].GetPointerSize() * i)) });
+                    CNC_REF_OBJECTS[i] = (IMemoryManagement)Activator.CreateInstance(TYPE, new object[] { ((Pointer + OFFSET) + (GetPointerSizeFromType(TYPE) * i)) });
                 }
                 else
                 {
@@ -251,23 +269,30 @@ namespace OosterhofDesign
                 }
             }
         }
-        internal void UpdateRefType(IMemoryManagement[,] CNC_REF_OBJECTS, int OFFSET, Type TYPE)//? is mogelijk niet goed
+        internal void UpdateRefType(IMemoryManagement[,] CNC_REF_OBJECTS, int OFFSET, Type TYPE)
         {
             int i_Length = CNC_REF_OBJECTS.GetLength(0);
             int f_Length = CNC_REF_OBJECTS.GetLength(1);
 
+
+            
+            
+
             for (int i = 0; i < i_Length; i++)
             {
+              
                 for (int f =0;f< f_Length;f++)
                 {
-                    int pointerSize = CNC_REF_OBJECTS[i, f].GetPointerSize();
+                    
                     if (CNC_REF_OBJECTS[i,f] == null)
                     {
-                        CNC_REF_OBJECTS[i,f] = (IMemoryManagement)Activator.CreateInstance(TYPE, new object[] { (Pointer + OFFSET) + ((pointerSize * i *f_Length) + (f * pointerSize)) });
+                        int pointerSize = GetPointerSizeFromType(TYPE);//get the size of the pointer with reflection
+                        CNC_REF_OBJECTS[i,f] = (IMemoryManagement)Activator.CreateInstance(TYPE, new object[] { (Pointer + OFFSET) + ((pointerSize * i * f_Length) + (f * pointerSize)) });
                     }
                     else
                     {
-                        CNC_REF_OBJECTS[i,f].UpdatePointer((Pointer + OFFSET) + ((pointerSize * i *f_Length) + (f * pointerSize)));
+                        int pointerSize = CNC_REF_OBJECTS[i, f].GetPointerSize();//use the size from the existing object so we dont have to use reflection again.
+                        CNC_REF_OBJECTS[i,f].UpdatePointer((Pointer + OFFSET) + ((pointerSize * i * f_Length) + (f * pointerSize)));
                     }
                 }
             }
