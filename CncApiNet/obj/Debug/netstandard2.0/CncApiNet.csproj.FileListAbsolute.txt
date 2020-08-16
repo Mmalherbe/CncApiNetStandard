@@ -22,4 +22,3 @@ F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\Cnc
 F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.csproj.CoreCompileInputs.cache
 F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.dll
 F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.pdb
-F:\S Oosterhof\Mijn Documenten\GitHub\EdingCnc\ApiWrappers\CncApiNetStandard\CncApiNet\obj\Debug\netstandard2.0\CncApiNet.csprojAssemblyReference.cache
