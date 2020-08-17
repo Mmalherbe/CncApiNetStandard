@@ -451,35 +451,35 @@ namespace OosterhofDesign {
         
         public CncVector center {
             get {
-                UpdateRefType(_center, (int)Offst_CncCircle.center, typeof(CncCircle));
+                UpdateRefType(_center, (int)Offst_CncCircle.center);
                 return _center;
             }
         }
         
         public CncVector normal {
             get {
-                UpdateRefType(_normal, (int)Offst_CncCircle.normal, typeof(CncCircle));
+                UpdateRefType(_normal, (int)Offst_CncCircle.normal);
                 return _normal;
             }
         }
         
         public CncVector rTan {
             get {
-                UpdateRefType(_rTan, (int)Offst_CncCircle.rTan, typeof(CncCircle));
+                UpdateRefType(_rTan, (int)Offst_CncCircle.rTan);
                 return _rTan;
             }
         }
         
         public CncVector rPerp {
             get {
-                UpdateRefType(_rPerp, (int)Offst_CncCircle.rPerp, typeof(CncCircle));
+                UpdateRefType(_rPerp, (int)Offst_CncCircle.rPerp);
                 return _rPerp;
             }
         }
         
         public CncVector rHelix {
             get {
-                UpdateRefType(_rHelix, (int)Offst_CncCircle.rHelix, typeof(CncCircle));
+                UpdateRefType(_rHelix, (int)Offst_CncCircle.rHelix);
                 return _rHelix;
             }
         }
@@ -565,7 +565,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble g5xOffset {
             get {
-                UpdateRefType(_g5xOffset, (int)Offst_CncOffsetAndPlane.g5xOffset, typeof(CncOffsetAndPlane));
+                UpdateRefType(_g5xOffset, (int)Offst_CncOffsetAndPlane.g5xOffset);
                 return _g5xOffset;
             }
         }
@@ -581,14 +581,14 @@ namespace OosterhofDesign {
         
         public CncCartDouble g92Offset {
             get {
-                UpdateRefType(_g92Offset, (int)Offst_CncOffsetAndPlane.g92Offset, typeof(CncOffsetAndPlane));
+                UpdateRefType(_g92Offset, (int)Offst_CncOffsetAndPlane.g92Offset);
                 return _g92Offset;
             }
         }
         
         public CncCartDouble spindleConfigOffset {
             get {
-                UpdateRefType(_spindleConfigOffset, (int)Offst_CncOffsetAndPlane.spindleConfigOffset, typeof(CncOffsetAndPlane));
+                UpdateRefType(_spindleConfigOffset, (int)Offst_CncOffsetAndPlane.spindleConfigOffset);
                 return _spindleConfigOffset;
             }
         }
@@ -604,14 +604,14 @@ namespace OosterhofDesign {
         
         public CncCartDouble totalOffset {
             get {
-                UpdateRefType(_totalOffset, (int)Offst_CncOffsetAndPlane.totalOffset, typeof(CncOffsetAndPlane));
+                UpdateRefType(_totalOffset, (int)Offst_CncOffsetAndPlane.totalOffset);
                 return _totalOffset;
             }
         }
         
         public CncVector toolOffset {
             get {
-                UpdateRefType(_toolOffset, (int)Offst_CncOffsetAndPlane.toolOffset, typeof(CncOffsetAndPlane));
+                UpdateRefType(_toolOffset, (int)Offst_CncOffsetAndPlane.toolOffset);
                 return _toolOffset;
             }
         }
@@ -681,7 +681,7 @@ namespace OosterhofDesign {
         
         public CncVector RotationBasePoint {
             get {
-                UpdateRefType(_RotationBasePoint, (int)Offst_CncOffsetAndPlane.RotationBasePoint, typeof(CncOffsetAndPlane));
+                UpdateRefType(_RotationBasePoint, (int)Offst_CncOffsetAndPlane.RotationBasePoint);
                 return _RotationBasePoint;
             }
         }
@@ -697,7 +697,7 @@ namespace OosterhofDesign {
         
         public CncVector XYScalingFactor {
             get {
-                UpdateRefType(_XYScalingFactor, (int)Offst_CncOffsetAndPlane.XYScalingFactor, typeof(CncOffsetAndPlane));
+                UpdateRefType(_XYScalingFactor, (int)Offst_CncOffsetAndPlane.XYScalingFactor);
                 return _XYScalingFactor;
             }
         }
@@ -767,14 +767,14 @@ namespace OosterhofDesign {
         
         public CncCartDouble start {
             get {
-                UpdateRefType(_start, (int)Offst_CalcKinLinVaData.start, typeof(CalcKinLinVaData));
+                UpdateRefType(_start, (int)Offst_CalcKinLinVaData.start);
                 return _start;
             }
         }
         
         public CncCartDouble end {
             get {
-                UpdateRefType(_end, (int)Offst_CalcKinLinVaData.end, typeof(CalcKinLinVaData));
+                UpdateRefType(_end, (int)Offst_CalcKinLinVaData.end);
                 return _end;
             }
         }
@@ -799,7 +799,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble delta {
             get {
-                UpdateRefType(_delta, (int)Offst_CalcKinLinVaData.delta, typeof(CalcKinLinVaData));
+                UpdateRefType(_delta, (int)Offst_CalcKinLinVaData.delta);
                 return _delta;
             }
         }
@@ -824,28 +824,28 @@ namespace OosterhofDesign {
         
         public CncOffsetAndPlane offsetAndPlane {
             get {
-                UpdateRefType(_offsetAndPlane, (int)Offst_CalcKinLinVaData.offsetAndPlane, typeof(CalcKinLinVaData));
+                UpdateRefType(_offsetAndPlane, (int)Offst_CalcKinLinVaData.offsetAndPlane);
                 return _offsetAndPlane;
             }
         }
         
         public CncJointDouble startJoint {
             get {
-                UpdateRefType(_startJoint, (int)Offst_CalcKinLinVaData.startJoint, typeof(CalcKinLinVaData));
+                UpdateRefType(_startJoint, (int)Offst_CalcKinLinVaData.startJoint);
                 return _startJoint;
             }
         }
         
         public CncJointDouble endJoint {
             get {
-                UpdateRefType(_endJoint, (int)Offst_CalcKinLinVaData.endJoint, typeof(CalcKinLinVaData));
+                UpdateRefType(_endJoint, (int)Offst_CalcKinLinVaData.endJoint);
                 return _endJoint;
             }
         }
         
         public CncJointDouble jointDelta {
             get {
-                UpdateRefType(_jointDelta, (int)Offst_CalcKinLinVaData.jointDelta, typeof(CalcKinLinVaData));
+                UpdateRefType(_jointDelta, (int)Offst_CalcKinLinVaData.jointDelta);
                 return _jointDelta;
             }
         }
@@ -950,21 +950,21 @@ namespace OosterhofDesign {
         
         public Double[] dData {
             get {
-                UpdateRefType(_dData,(int)Offst_KinControldata.dDataRankL_1);
+                UpdateRefType(_dData,(int)Offst_KinControldata.dData);
                 return _dData;
             }
             set {
-                SetRefType(_dData,value,(int)Offst_KinControldata.dDataRankL_1);
+                SetRefType(_dData,value,(int)Offst_KinControldata.dData);
             }
         }
         
         public Int32[] iData {
             get {
-                UpdateRefType(_iData,(int)Offst_KinControldata.iDataRankL_1);
+                UpdateRefType(_iData,(int)Offst_KinControldata.iData);
                 return _iData;
             }
             set {
-                SetRefType(_iData,value,(int)Offst_KinControldata.iDataRankL_1);
+                SetRefType(_iData,value,(int)Offst_KinControldata.iData);
             }
         }
         
@@ -1253,7 +1253,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble prologMoveToPlanePosition {
             get {
-                UpdateRefType(_prologMoveToPlanePosition, (int)Offst_CncCmdJobPrologData.prologMoveToPlanePosition, typeof(CncCmdJobPrologData));
+                UpdateRefType(_prologMoveToPlanePosition, (int)Offst_CncCmdJobPrologData.prologMoveToPlanePosition);
                 return _prologMoveToPlanePosition;
             }
         }
@@ -2037,35 +2037,35 @@ namespace OosterhofDesign {
         
         public CncCartBool axesInUse {
             get {
-                UpdateRefType(_axesInUse, (int)Offst_CncKinCfg.axesInUse, typeof(CncKinCfg));
+                UpdateRefType(_axesInUse, (int)Offst_CncKinCfg.axesInUse);
                 return _axesInUse;
             }
         }
         
         public CncCartBool axesVisible {
             get {
-                UpdateRefType(_axesVisible, (int)Offst_CncKinCfg.axesVisible, typeof(CncKinCfg));
+                UpdateRefType(_axesVisible, (int)Offst_CncKinCfg.axesVisible);
                 return _axesVisible;
             }
         }
         
         public CncJointBool jointInUse {
             get {
-                UpdateRefType(_jointInUse, (int)Offst_CncKinCfg.jointInUse, typeof(CncKinCfg));
+                UpdateRefType(_jointInUse, (int)Offst_CncKinCfg.jointInUse);
                 return _jointInUse;
             }
         }
         
         public CncJointBool jointVisible {
             get {
-                UpdateRefType(_jointVisible, (int)Offst_CncKinCfg.jointVisible, typeof(CncKinCfg));
+                UpdateRefType(_jointVisible, (int)Offst_CncKinCfg.jointVisible);
                 return _jointVisible;
             }
         }
         
         public CncJointBool jointIsSlave {
             get {
-                UpdateRefType(_jointIsSlave, (int)Offst_CncKinCfg.jointIsSlave, typeof(CncKinCfg));
+                UpdateRefType(_jointIsSlave, (int)Offst_CncKinCfg.jointIsSlave);
                 return _jointIsSlave;
             }
         }
@@ -2108,56 +2108,56 @@ namespace OosterhofDesign {
         
         public CncCartDouble maxCartesianVelocity {
             get {
-                UpdateRefType(_maxCartesianVelocity, (int)Offst_CncKinCfg.maxCartesianVelocity, typeof(CncKinCfg));
+                UpdateRefType(_maxCartesianVelocity, (int)Offst_CncKinCfg.maxCartesianVelocity);
                 return _maxCartesianVelocity;
             }
         }
         
         public CncCartDouble maxCartesianAcceleration {
             get {
-                UpdateRefType(_maxCartesianAcceleration, (int)Offst_CncKinCfg.maxCartesianAcceleration, typeof(CncKinCfg));
+                UpdateRefType(_maxCartesianAcceleration, (int)Offst_CncKinCfg.maxCartesianAcceleration);
                 return _maxCartesianAcceleration;
             }
         }
         
         public CncCartDouble positiveCartesianLimit {
             get {
-                UpdateRefType(_positiveCartesianLimit, (int)Offst_CncKinCfg.positiveCartesianLimit, typeof(CncKinCfg));
+                UpdateRefType(_positiveCartesianLimit, (int)Offst_CncKinCfg.positiveCartesianLimit);
                 return _positiveCartesianLimit;
             }
         }
         
         public CncCartDouble negativeCartesianLimit {
             get {
-                UpdateRefType(_negativeCartesianLimit, (int)Offst_CncKinCfg.negativeCartesianLimit, typeof(CncKinCfg));
+                UpdateRefType(_negativeCartesianLimit, (int)Offst_CncKinCfg.negativeCartesianLimit);
                 return _negativeCartesianLimit;
             }
         }
         
         public CncJointDouble maxJointVelocity {
             get {
-                UpdateRefType(_maxJointVelocity, (int)Offst_CncKinCfg.maxJointVelocity, typeof(CncKinCfg));
+                UpdateRefType(_maxJointVelocity, (int)Offst_CncKinCfg.maxJointVelocity);
                 return _maxJointVelocity;
             }
         }
         
         public CncJointDouble maxJointAcceleration {
             get {
-                UpdateRefType(_maxJointAcceleration, (int)Offst_CncKinCfg.maxJointAcceleration, typeof(CncKinCfg));
+                UpdateRefType(_maxJointAcceleration, (int)Offst_CncKinCfg.maxJointAcceleration);
                 return _maxJointAcceleration;
             }
         }
         
         public CncJointDouble positiveJointLimit {
             get {
-                UpdateRefType(_positiveJointLimit, (int)Offst_CncKinCfg.positiveJointLimit, typeof(CncKinCfg));
+                UpdateRefType(_positiveJointLimit, (int)Offst_CncKinCfg.positiveJointLimit);
                 return _positiveJointLimit;
             }
         }
         
         public CncJointDouble negativeJointLimit {
             get {
-                UpdateRefType(_negativeJointLimit, (int)Offst_CncKinCfg.negativeJointLimit, typeof(CncKinCfg));
+                UpdateRefType(_negativeJointLimit, (int)Offst_CncKinCfg.negativeJointLimit);
                 return _negativeJointLimit;
             }
         }
@@ -2173,14 +2173,14 @@ namespace OosterhofDesign {
         
         public CncCartDouble positiveLimitTCA {
             get {
-                UpdateRefType(_positiveLimitTCA, (int)Offst_CncKinCfg.positiveLimitTCA, typeof(CncKinCfg));
+                UpdateRefType(_positiveLimitTCA, (int)Offst_CncKinCfg.positiveLimitTCA);
                 return _positiveLimitTCA;
             }
         }
         
         public CncCartDouble negativeLimitTCA {
             get {
-                UpdateRefType(_negativeLimitTCA, (int)Offst_CncKinCfg.negativeLimitTCA, typeof(CncKinCfg));
+                UpdateRefType(_negativeLimitTCA, (int)Offst_CncKinCfg.negativeLimitTCA);
                 return _negativeLimitTCA;
             }
         }
@@ -2205,7 +2205,7 @@ namespace OosterhofDesign {
         
         public CncVector aAxisCalibratedRotationPoint {
             get {
-                UpdateRefType(_aAxisCalibratedRotationPoint, (int)Offst_CncKinCfg.aAxisCalibratedRotationPoint, typeof(CncKinCfg));
+                UpdateRefType(_aAxisCalibratedRotationPoint, (int)Offst_CncKinCfg.aAxisCalibratedRotationPoint);
                 return _aAxisCalibratedRotationPoint;
             }
         }
@@ -2419,7 +2419,7 @@ namespace OosterhofDesign {
         
         public CncVector m_activeToolOffset {
             get {
-                UpdateRefType(_m_activeToolOffset, (int)Offst_CncKinStatus.m_activeToolOffset, typeof(CncKinStatus));
+                UpdateRefType(_m_activeToolOffset, (int)Offst_CncKinStatus.m_activeToolOffset);
                 return _m_activeToolOffset;
             }
         }
@@ -2453,21 +2453,21 @@ namespace OosterhofDesign {
         
         public CncOffsetAndPlane m_offsetAndPlane {
             get {
-                UpdateRefType(_m_offsetAndPlane, (int)Offst_CncKinStatus.m_offsetAndPlane, typeof(CncKinStatus));
+                UpdateRefType(_m_offsetAndPlane, (int)Offst_CncKinStatus.m_offsetAndPlane);
                 return _m_offsetAndPlane;
             }
         }
         
         public CncKinCfg m_actConfig {
             get {
-                UpdateRefType(_m_actConfig, (int)Offst_CncKinStatus.m_actConfig, typeof(CncKinStatus));
+                UpdateRefType(_m_actConfig, (int)Offst_CncKinStatus.m_actConfig);
                 return _m_actConfig;
             }
         }
         
         public CncTanKnifeStatus m_tanknifeSts {
             get {
-                UpdateRefType(_m_tanknifeSts, (int)Offst_CncKinStatus.m_tanknifeSts, typeof(CncKinStatus));
+                UpdateRefType(_m_tanknifeSts, (int)Offst_CncKinStatus.m_tanknifeSts);
                 return _m_tanknifeSts;
             }
         }
@@ -2636,7 +2636,7 @@ namespace OosterhofDesign {
         
         public CncVacuumbedSectionData[] vacuumBedSectionData {
             get {
-                UpdateRefType(_vacuumBedSectionData,(int)Offst_CncVacuumbedConfig.vacuumBedSectionData,typeof(CncVacuumbedSectionData));
+                UpdateRefType(_vacuumBedSectionData,(int)Offst_CncVacuumbedConfig.vacuumBedSectionData,typeof(CncVacuumbedSectionData),(int)Offst_CncVacuumbedSectionData.TotalSize);
                 return _vacuumBedSectionData;
             }
         }
@@ -3864,7 +3864,7 @@ namespace OosterhofDesign {
         
         public CncVector coordinateSystemOffset {
             get {
-                UpdateRefType(_coordinateSystemOffset, (int)Offst_CncSpindleConfig.coordinateSystemOffset, typeof(CncSpindleConfig));
+                UpdateRefType(_coordinateSystemOffset, (int)Offst_CncSpindleConfig.coordinateSystemOffset);
                 return _coordinateSystemOffset;
             }
         }
@@ -4426,11 +4426,11 @@ namespace OosterhofDesign {
         
         public Int32[] auxInputCheckSenseLevel {
             get {
-                UpdateRefType(_auxInputCheckSenseLevel,(int)Offst_CncSafetyConfig.auxInputCheckSenseLevelRankL_1);
+                UpdateRefType(_auxInputCheckSenseLevel,(int)Offst_CncSafetyConfig.auxInputCheckSenseLevel);
                 return _auxInputCheckSenseLevel;
             }
             set {
-                SetRefType(_auxInputCheckSenseLevel,value,(int)Offst_CncSafetyConfig.auxInputCheckSenseLevelRankL_1);
+                SetRefType(_auxInputCheckSenseLevel,value,(int)Offst_CncSafetyConfig.auxInputCheckSenseLevel);
             }
         }
         
@@ -4982,7 +4982,7 @@ namespace OosterhofDesign {
         
         public CncThcProcessParameters processPars {
             get {
-                UpdateRefType(_processPars, (int)Offst_CncThcCfg.processPars, typeof(CncThcCfg));
+                UpdateRefType(_processPars, (int)Offst_CncThcCfg.processPars);
                 return _processPars;
             }
         }
@@ -5130,7 +5130,7 @@ namespace OosterhofDesign {
         
         public Cnc3dprintingVoltTempTuple[] table {
             get {
-                UpdateRefType(_table,(int)Offst_Cnc3dprintingTempCalibrationTable.table,typeof(Cnc3dprintingVoltTempTuple));
+                UpdateRefType(_table,(int)Offst_Cnc3dprintingTempCalibrationTable.table,typeof(Cnc3dprintingVoltTempTuple),(int)Offst_Cnc3dprintingVoltTempTuple.TotalSize);
                 return _table;
             }
         }
@@ -5320,14 +5320,14 @@ namespace OosterhofDesign {
         
         public Cnc3dprintingTempPidPars extruderPIDPars {
             get {
-                UpdateRefType(_extruderPIDPars, (int)Offst_Cnc3dprintingConfig.extruderPIDPars, typeof(Cnc3dprintingConfig));
+                UpdateRefType(_extruderPIDPars, (int)Offst_Cnc3dprintingConfig.extruderPIDPars);
                 return _extruderPIDPars;
             }
         }
         
         public Cnc3dprintingTempCalibrationTable extruderVoltTempTable {
             get {
-                UpdateRefType(_extruderVoltTempTable, (int)Offst_Cnc3dprintingConfig.extruderVoltTempTable, typeof(Cnc3dprintingConfig));
+                UpdateRefType(_extruderVoltTempTable, (int)Offst_Cnc3dprintingConfig.extruderVoltTempTable);
                 return _extruderVoltTempTable;
             }
         }
@@ -5343,14 +5343,14 @@ namespace OosterhofDesign {
         
         public Cnc3dprintingTempPidPars heatBedPIDPars {
             get {
-                UpdateRefType(_heatBedPIDPars, (int)Offst_Cnc3dprintingConfig.heatBedPIDPars, typeof(Cnc3dprintingConfig));
+                UpdateRefType(_heatBedPIDPars, (int)Offst_Cnc3dprintingConfig.heatBedPIDPars);
                 return _heatBedPIDPars;
             }
         }
         
         public Cnc3dprintingTempCalibrationTable heatBedVoltTempTable {
             get {
-                UpdateRefType(_heatBedVoltTempTable, (int)Offst_Cnc3dprintingConfig.heatBedVoltTempTable, typeof(Cnc3dprintingConfig));
+                UpdateRefType(_heatBedVoltTempTable, (int)Offst_Cnc3dprintingConfig.heatBedVoltTempTable);
                 return _heatBedVoltTempTable;
             }
         }
@@ -5574,21 +5574,21 @@ namespace OosterhofDesign {
         
         public Cnc3dprintingTempPidPars pidPars {
             get {
-                UpdateRefType(_pidPars, (int)Offst_Cnc3dpCmdData.pidPars, typeof(Cnc3dpCmdData));
+                UpdateRefType(_pidPars, (int)Offst_Cnc3dpCmdData.pidPars);
                 return _pidPars;
             }
         }
         
         public Cnc3dpOnoffData onOffVal {
             get {
-                UpdateRefType(_onOffVal, (int)Offst_Cnc3dpCmdData.onOffVal, typeof(Cnc3dpCmdData));
+                UpdateRefType(_onOffVal, (int)Offst_Cnc3dpCmdData.onOffVal);
                 return _onOffVal;
             }
         }
         
         public Cnc3dpFloatvalData floatVal {
             get {
-                UpdateRefType(_floatVal, (int)Offst_Cnc3dpCmdData.floatVal, typeof(Cnc3dpCmdData));
+                UpdateRefType(_floatVal, (int)Offst_Cnc3dpCmdData.floatVal);
                 return _floatVal;
             }
         }
@@ -5642,7 +5642,7 @@ namespace OosterhofDesign {
         
         public Cnc3dpCmdData d {
             get {
-                UpdateRefType(_d, (int)Offst_Cnc3dprintingCommand.d, typeof(Cnc3dprintingCommand));
+                UpdateRefType(_d, (int)Offst_Cnc3dprintingCommand.d);
                 return _d;
             }
         }
@@ -5687,14 +5687,14 @@ namespace OosterhofDesign {
         
         public Cnc3dprintingTempPidPars extruderPIDPars {
             get {
-                UpdateRefType(_extruderPIDPars, (int)Offst_Cnc3dprintingSts.extruderPIDPars, typeof(Cnc3dprintingSts));
+                UpdateRefType(_extruderPIDPars, (int)Offst_Cnc3dprintingSts.extruderPIDPars);
                 return _extruderPIDPars;
             }
         }
         
         public Cnc3dprintingTempPidPars heatBedPIDPars {
             get {
-                UpdateRefType(_heatBedPIDPars, (int)Offst_Cnc3dprintingSts.heatBedPIDPars, typeof(Cnc3dprintingSts));
+                UpdateRefType(_heatBedPIDPars, (int)Offst_Cnc3dprintingSts.heatBedPIDPars);
                 return _heatBedPIDPars;
             }
         }
@@ -6149,7 +6149,7 @@ namespace OosterhofDesign {
         
         public CncToolDataInternal[] toolTable {
             get {
-                UpdateRefType(_toolTable,(int)Offst_CncInterpreterConfig.toolTable,typeof(CncToolDataInternal));
+                UpdateRefType(_toolTable,(int)Offst_CncInterpreterConfig.toolTable,typeof(CncToolDataInternal),(int)Offst_CncToolDataInternal.TotalSize);
                 return _toolTable;
             }
         }
@@ -7002,7 +7002,7 @@ namespace OosterhofDesign {
         
         public CncUserButton[] extendedUserButtons {
             get {
-                UpdateRefType(_extendedUserButtons,(int)Offst_CncUiCfg.extendedUserButtons,typeof(CncUserButton));
+                UpdateRefType(_extendedUserButtons,(int)Offst_CncUiCfg.extendedUserButtons,typeof(CncUserButton),(int)Offst_CncUserButton.TotalSize);
                 return _extendedUserButtons;
             }
         }
@@ -7180,11 +7180,11 @@ namespace OosterhofDesign {
         
         public Int32[] reserved {
             get {
-                UpdateRefType(_reserved,(int)Offst_CncSystemConfig.reservedRankL_1);
+                UpdateRefType(_reserved,(int)Offst_CncSystemConfig.reserved);
                 return _reserved;
             }
             set {
-                SetRefType(_reserved,value,(int)Offst_CncSystemConfig.reservedRankL_1);
+                SetRefType(_reserved,value,(int)Offst_CncSystemConfig.reserved);
             }
         }
         
@@ -7334,11 +7334,11 @@ namespace OosterhofDesign {
         
         public Double[] reserved {
             get {
-                UpdateRefType(_reserved,(int)Offst_CncServiceCfg.reservedRankL_1);
+                UpdateRefType(_reserved,(int)Offst_CncServiceCfg.reserved);
                 return _reserved;
             }
             set {
-                SetRefType(_reserved,value,(int)Offst_CncServiceCfg.reservedRankL_1);
+                SetRefType(_reserved,value,(int)Offst_CncServiceCfg.reserved);
             }
         }
         
@@ -7476,7 +7476,7 @@ namespace OosterhofDesign {
         
         public CncI2cgpioRuleConfig[,] ruleConfig {
             get {
-                UpdateRefType(_ruleConfig,(int)Offst_CncI2cgpioCardConfig.ruleConfig,typeof(CncI2cgpioRuleConfig));
+                UpdateRefType(_ruleConfig,(int)Offst_CncI2cgpioCardConfig.ruleConfig,typeof(CncI2cgpioRuleConfig),(int)Offst_CncI2cgpioRuleConfig.TotalSize);
                 return _ruleConfig;
             }
         }
@@ -7747,28 +7747,28 @@ namespace OosterhofDesign {
         
         public CncUioSingleInputCfg[] singleInput {
             get {
-                UpdateRefType(_singleInput,(int)Offst_CncUioConfig.singleInput,typeof(CncUioSingleInputCfg));
+                UpdateRefType(_singleInput,(int)Offst_CncUioConfig.singleInput,typeof(CncUioSingleInputCfg),(int)Offst_CncUioSingleInputCfg.TotalSize);
                 return _singleInput;
             }
         }
         
         public CncUioSelectorConfig[] selector {
             get {
-                UpdateRefType(_selector,(int)Offst_CncUioConfig.selector,typeof(CncUioSelectorConfig));
+                UpdateRefType(_selector,(int)Offst_CncUioConfig.selector,typeof(CncUioSelectorConfig),(int)Offst_CncUioSelectorConfig.TotalSize);
                 return _selector;
             }
         }
         
         public CncUioAnalogConfig[] analog {
             get {
-                UpdateRefType(_analog,(int)Offst_CncUioConfig.analog,typeof(CncUioAnalogConfig));
+                UpdateRefType(_analog,(int)Offst_CncUioConfig.analog,typeof(CncUioAnalogConfig),(int)Offst_CncUioAnalogConfig.TotalSize);
                 return _analog;
             }
         }
         
         public CncUioHandwheelConfig[] handwheel {
             get {
-                UpdateRefType(_handwheel,(int)Offst_CncUioConfig.handwheel,typeof(CncUioHandwheelConfig));
+                UpdateRefType(_handwheel,(int)Offst_CncUioConfig.handwheel,typeof(CncUioHandwheelConfig),(int)Offst_CncUioHandwheelConfig.TotalSize);
                 return _handwheel;
             }
         }
@@ -7912,140 +7912,140 @@ namespace OosterhofDesign {
         
         public CncSystemConfig systemCfg {
             get {
-                UpdateRefType(_systemCfg, (int)Offst_CncMachineConfig.systemCfg, typeof(CncMachineConfig));
+                UpdateRefType(_systemCfg, (int)Offst_CncMachineConfig.systemCfg);
                 return _systemCfg;
             }
         }
         
         public CncJointCfg[] jointCfg {
             get {
-                UpdateRefType(_jointCfg,(int)Offst_CncMachineConfig.jointCfg,typeof(CncJointCfg));
+                UpdateRefType(_jointCfg,(int)Offst_CncMachineConfig.jointCfg,typeof(CncJointCfg),(int)Offst_CncJointCfg.TotalSize);
                 return _jointCfg;
             }
         }
         
         public CncSpindleConfig[] spindleCfg {
             get {
-                UpdateRefType(_spindleCfg,(int)Offst_CncMachineConfig.spindleCfg,typeof(CncSpindleConfig));
+                UpdateRefType(_spindleCfg,(int)Offst_CncMachineConfig.spindleCfg,typeof(CncSpindleConfig),(int)Offst_CncSpindleConfig.TotalSize);
                 return _spindleCfg;
             }
         }
         
         public CncIoConfig ioCfg {
             get {
-                UpdateRefType(_ioCfg, (int)Offst_CncMachineConfig.ioCfg, typeof(CncMachineConfig));
+                UpdateRefType(_ioCfg, (int)Offst_CncMachineConfig.ioCfg);
                 return _ioCfg;
             }
         }
         
         public CncKinCfg kinCfg {
             get {
-                UpdateRefType(_kinCfg, (int)Offst_CncMachineConfig.kinCfg, typeof(CncMachineConfig));
+                UpdateRefType(_kinCfg, (int)Offst_CncMachineConfig.kinCfg);
                 return _kinCfg;
             }
         }
         
         public CncInterpreterConfig interpreterCfg {
             get {
-                UpdateRefType(_interpreterCfg, (int)Offst_CncMachineConfig.interpreterCfg, typeof(CncMachineConfig));
+                UpdateRefType(_interpreterCfg, (int)Offst_CncMachineConfig.interpreterCfg);
                 return _interpreterCfg;
             }
         }
         
         public CncTrajectoryCfg trajCfg {
             get {
-                UpdateRefType(_trajCfg, (int)Offst_CncMachineConfig.trajCfg, typeof(CncMachineConfig));
+                UpdateRefType(_trajCfg, (int)Offst_CncMachineConfig.trajCfg);
                 return _trajCfg;
             }
         }
         
         public CncThcCfg plasmaCfg {
             get {
-                UpdateRefType(_plasmaCfg, (int)Offst_CncMachineConfig.plasmaCfg, typeof(CncMachineConfig));
+                UpdateRefType(_plasmaCfg, (int)Offst_CncMachineConfig.plasmaCfg);
                 return _plasmaCfg;
             }
         }
         
         public CncSafetyConfig safetyCfg {
             get {
-                UpdateRefType(_safetyCfg, (int)Offst_CncMachineConfig.safetyCfg, typeof(CncMachineConfig));
+                UpdateRefType(_safetyCfg, (int)Offst_CncMachineConfig.safetyCfg);
                 return _safetyCfg;
             }
         }
         
         public CncProbingCfg probingCfg {
             get {
-                UpdateRefType(_probingCfg, (int)Offst_CncMachineConfig.probingCfg, typeof(CncMachineConfig));
+                UpdateRefType(_probingCfg, (int)Offst_CncMachineConfig.probingCfg);
                 return _probingCfg;
             }
         }
         
         public CncTrafficLightCfg trafficLightCfg {
             get {
-                UpdateRefType(_trafficLightCfg, (int)Offst_CncMachineConfig.trafficLightCfg, typeof(CncMachineConfig));
+                UpdateRefType(_trafficLightCfg, (int)Offst_CncMachineConfig.trafficLightCfg);
                 return _trafficLightCfg;
             }
         }
         
         public CncHandwheelCfg handwheelCfg {
             get {
-                UpdateRefType(_handwheelCfg, (int)Offst_CncMachineConfig.handwheelCfg, typeof(CncMachineConfig));
+                UpdateRefType(_handwheelCfg, (int)Offst_CncMachineConfig.handwheelCfg);
                 return _handwheelCfg;
             }
         }
         
         public CncFeedspeedCfg feedSpeedOVCfg {
             get {
-                UpdateRefType(_feedSpeedOVCfg, (int)Offst_CncMachineConfig.feedSpeedOVCfg, typeof(CncMachineConfig));
+                UpdateRefType(_feedSpeedOVCfg, (int)Offst_CncMachineConfig.feedSpeedOVCfg);
                 return _feedSpeedOVCfg;
             }
         }
         
         public CncI2cgpioCardConfig gpioCfg {
             get {
-                UpdateRefType(_gpioCfg, (int)Offst_CncMachineConfig.gpioCfg, typeof(CncMachineConfig));
+                UpdateRefType(_gpioCfg, (int)Offst_CncMachineConfig.gpioCfg);
                 return _gpioCfg;
             }
         }
         
         public CncCameraConfig cameraCfg {
             get {
-                UpdateRefType(_cameraCfg, (int)Offst_CncMachineConfig.cameraCfg, typeof(CncMachineConfig));
+                UpdateRefType(_cameraCfg, (int)Offst_CncMachineConfig.cameraCfg);
                 return _cameraCfg;
             }
         }
         
         public CncVacuumbedConfig vacuumBedCfg {
             get {
-                UpdateRefType(_vacuumBedCfg, (int)Offst_CncMachineConfig.vacuumBedCfg, typeof(CncMachineConfig));
+                UpdateRefType(_vacuumBedCfg, (int)Offst_CncMachineConfig.vacuumBedCfg);
                 return _vacuumBedCfg;
             }
         }
         
         public CncUiCfg uiCfg {
             get {
-                UpdateRefType(_uiCfg, (int)Offst_CncMachineConfig.uiCfg, typeof(CncMachineConfig));
+                UpdateRefType(_uiCfg, (int)Offst_CncMachineConfig.uiCfg);
                 return _uiCfg;
             }
         }
         
         public CncServiceCfg serviceCfg {
             get {
-                UpdateRefType(_serviceCfg, (int)Offst_CncMachineConfig.serviceCfg, typeof(CncMachineConfig));
+                UpdateRefType(_serviceCfg, (int)Offst_CncMachineConfig.serviceCfg);
                 return _serviceCfg;
             }
         }
         
         public Cnc3dprintingConfig print3DCfg {
             get {
-                UpdateRefType(_print3DCfg, (int)Offst_CncMachineConfig.print3DCfg, typeof(CncMachineConfig));
+                UpdateRefType(_print3DCfg, (int)Offst_CncMachineConfig.print3DCfg);
                 return _print3DCfg;
             }
         }
         
         public CncUioConfig uioCfg {
             get {
-                UpdateRefType(_uioCfg, (int)Offst_CncMachineConfig.uioCfg, typeof(CncMachineConfig));
+                UpdateRefType(_uioCfg, (int)Offst_CncMachineConfig.uioCfg);
                 return _uioCfg;
             }
         }
@@ -8815,7 +8815,7 @@ namespace OosterhofDesign {
         
         public CncSpindleConfig spindleCfg {
             get {
-                UpdateRefType(_spindleCfg, (int)Offst_CncSpindleSts.spindleCfg, typeof(CncSpindleSts));
+                UpdateRefType(_spindleCfg, (int)Offst_CncSpindleSts.spindleCfg);
                 return _spindleCfg;
             }
         }
@@ -8869,7 +8869,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble pausePosition {
             get {
-                UpdateRefType(_pausePosition, (int)Offst_CncPauseSts.pausePosition, typeof(CncPauseSts));
+                UpdateRefType(_pausePosition, (int)Offst_CncPauseSts.pausePosition);
                 return _pausePosition;
             }
         }
@@ -9038,7 +9038,7 @@ namespace OosterhofDesign {
         
         public CncCartBool curPosInSync {
             get {
-                UpdateRefType(_curPosInSync, (int)Offst_CncPauseSts.curPosInSync, typeof(CncPauseSts));
+                UpdateRefType(_curPosInSync, (int)Offst_CncPauseSts.curPosInSync);
                 return _curPosInSync;
             }
         }
@@ -9124,21 +9124,21 @@ namespace OosterhofDesign {
         
         public CncCartBool axesPresent {
             get {
-                UpdateRefType(_axesPresent, (int)Offst_CncBasicInterpreterStatus.axesPresent, typeof(CncBasicInterpreterStatus));
+                UpdateRefType(_axesPresent, (int)Offst_CncBasicInterpreterStatus.axesPresent);
                 return _axesPresent;
             }
         }
         
         public CncCartDouble position {
             get {
-                UpdateRefType(_position, (int)Offst_CncBasicInterpreterStatus.position, typeof(CncBasicInterpreterStatus));
+                UpdateRefType(_position, (int)Offst_CncBasicInterpreterStatus.position);
                 return _position;
             }
         }
         
         public CncOffsetAndPlane activeOffsetAndPlane {
             get {
-                UpdateRefType(_activeOffsetAndPlane, (int)Offst_CncBasicInterpreterStatus.activeOffsetAndPlane, typeof(CncBasicInterpreterStatus));
+                UpdateRefType(_activeOffsetAndPlane, (int)Offst_CncBasicInterpreterStatus.activeOffsetAndPlane);
                 return _activeOffsetAndPlane;
             }
         }
@@ -9271,11 +9271,11 @@ namespace OosterhofDesign {
         
         public Double[] parameters0to27 {
             get {
-                UpdateRefType(_parameters0to27,(int)Offst_CncBasicInterpreterStatus.parameters0to27RankL_1);
+                UpdateRefType(_parameters0to27,(int)Offst_CncBasicInterpreterStatus.parameters0to27);
                 return _parameters0to27;
             }
             set {
-                SetRefType(_parameters0to27,value,(int)Offst_CncBasicInterpreterStatus.parameters0to27RankL_1);
+                SetRefType(_parameters0to27,value,(int)Offst_CncBasicInterpreterStatus.parameters0to27);
             }
         }
         
@@ -9324,21 +9324,21 @@ namespace OosterhofDesign {
         
         public CncBasicInterpreterStatus basicIntStatusBeforeSearch {
             get {
-                UpdateRefType(_basicIntStatusBeforeSearch, (int)Offst_CncSearchStatus.basicIntStatusBeforeSearch, typeof(CncSearchStatus));
+                UpdateRefType(_basicIntStatusBeforeSearch, (int)Offst_CncSearchStatus.basicIntStatusBeforeSearch);
                 return _basicIntStatusBeforeSearch;
             }
         }
         
         public CncBasicInterpreterStatus basicIntStatusAfterSearch {
             get {
-                UpdateRefType(_basicIntStatusAfterSearch, (int)Offst_CncSearchStatus.basicIntStatusAfterSearch, typeof(CncSearchStatus));
+                UpdateRefType(_basicIntStatusAfterSearch, (int)Offst_CncSearchStatus.basicIntStatusAfterSearch);
                 return _basicIntStatusAfterSearch;
             }
         }
         
         public CncCartBool curPosInSync {
             get {
-                UpdateRefType(_curPosInSync, (int)Offst_CncSearchStatus.curPosInSync, typeof(CncSearchStatus));
+                UpdateRefType(_curPosInSync, (int)Offst_CncSearchStatus.curPosInSync);
                 return _curPosInSync;
             }
         }
@@ -9447,14 +9447,14 @@ namespace OosterhofDesign {
         
         public CncCartBool curTrackingPosReached {
             get {
-                UpdateRefType(_curTrackingPosReached, (int)Offst_CncTrackingStatus.curTrackingPosReached, typeof(CncTrackingStatus));
+                UpdateRefType(_curTrackingPosReached, (int)Offst_CncTrackingStatus.curTrackingPosReached);
                 return _curTrackingPosReached;
             }
         }
         
         public CncCartBool curAxesIsTracking {
             get {
-                UpdateRefType(_curAxesIsTracking, (int)Offst_CncTrackingStatus.curAxesIsTracking, typeof(CncTrackingStatus));
+                UpdateRefType(_curAxesIsTracking, (int)Offst_CncTrackingStatus.curAxesIsTracking);
                 return _curAxesIsTracking;
             }
         }
@@ -9470,32 +9470,32 @@ namespace OosterhofDesign {
         
         public CncCartDouble trackingPosition {
             get {
-                UpdateRefType(_trackingPosition, (int)Offst_CncTrackingStatus.trackingPosition, typeof(CncTrackingStatus));
+                UpdateRefType(_trackingPosition, (int)Offst_CncTrackingStatus.trackingPosition);
                 return _trackingPosition;
             }
         }
         
         public CncCartDouble trackingVelocity {
             get {
-                UpdateRefType(_trackingVelocity, (int)Offst_CncTrackingStatus.trackingVelocity, typeof(CncTrackingStatus));
+                UpdateRefType(_trackingVelocity, (int)Offst_CncTrackingStatus.trackingVelocity);
                 return _trackingVelocity;
             }
         }
         
         public CncCartDouble trackingAccel {
             get {
-                UpdateRefType(_trackingAccel, (int)Offst_CncTrackingStatus.trackingAccel, typeof(CncTrackingStatus));
+                UpdateRefType(_trackingAccel, (int)Offst_CncTrackingStatus.trackingAccel);
                 return _trackingAccel;
             }
         }
         
         public Int32[] trackingHandwheelCounter {
             get {
-                UpdateRefType(_trackingHandwheelCounter,(int)Offst_CncTrackingStatus.trackingHandwheelCounterRankL_1);
+                UpdateRefType(_trackingHandwheelCounter,(int)Offst_CncTrackingStatus.trackingHandwheelCounter);
                 return _trackingHandwheelCounter;
             }
             set {
-                SetRefType(_trackingHandwheelCounter,value,(int)Offst_CncTrackingStatus.trackingHandwheelCounterRankL_1);
+                SetRefType(_trackingHandwheelCounter,value,(int)Offst_CncTrackingStatus.trackingHandwheelCounter);
             }
         }
         
@@ -9575,28 +9575,28 @@ namespace OosterhofDesign {
         
         public CncJointDouble curCompValue {
             get {
-                UpdateRefType(_curCompValue, (int)Offst_CncCompensationStatus.curCompValue, typeof(CncCompensationStatus));
+                UpdateRefType(_curCompValue, (int)Offst_CncCompensationStatus.curCompValue);
                 return _curCompValue;
             }
         }
         
         public CncJointBool backlashCompIsOn {
             get {
-                UpdateRefType(_backlashCompIsOn, (int)Offst_CncCompensationStatus.backlashCompIsOn, typeof(CncCompensationStatus));
+                UpdateRefType(_backlashCompIsOn, (int)Offst_CncCompensationStatus.backlashCompIsOn);
                 return _backlashCompIsOn;
             }
         }
         
         public CncJointBool linearJointCompIsOn {
             get {
-                UpdateRefType(_linearJointCompIsOn, (int)Offst_CncCompensationStatus.linearJointCompIsOn, typeof(CncCompensationStatus));
+                UpdateRefType(_linearJointCompIsOn, (int)Offst_CncCompensationStatus.linearJointCompIsOn);
                 return _linearJointCompIsOn;
             }
         }
         
         public CncJointBool crossCompIsOn {
             get {
-                UpdateRefType(_crossCompIsOn, (int)Offst_CncCompensationStatus.crossCompIsOn, typeof(CncCompensationStatus));
+                UpdateRefType(_crossCompIsOn, (int)Offst_CncCompensationStatus.crossCompIsOn);
                 return _crossCompIsOn;
             }
         }
@@ -9642,7 +9642,7 @@ namespace OosterhofDesign {
         
         public CncThcProcessParameters actualProcessPars {
             get {
-                UpdateRefType(_actualProcessPars, (int)Offst_CncThcStatus.actualProcessPars, typeof(CncThcStatus));
+                UpdateRefType(_actualProcessPars, (int)Offst_CncThcStatus.actualProcessPars);
                 return _actualProcessPars;
             }
         }
@@ -10017,21 +10017,21 @@ namespace OosterhofDesign {
         
         public Double[] controllerFrequencies {
             get {
-                UpdateRefType(_controllerFrequencies,(int)Offst_CncControllerConfigStatus.controllerFrequenciesRankL_1);
+                UpdateRefType(_controllerFrequencies,(int)Offst_CncControllerConfigStatus.controllerFrequencies);
                 return _controllerFrequencies;
             }
             set {
-                SetRefType(_controllerFrequencies,value,(int)Offst_CncControllerConfigStatus.controllerFrequenciesRankL_1);
+                SetRefType(_controllerFrequencies,value,(int)Offst_CncControllerConfigStatus.controllerFrequencies);
             }
         }
         
         public Int32[] controllerFrequencyTimerValues {
             get {
-                UpdateRefType(_controllerFrequencyTimerValues,(int)Offst_CncControllerConfigStatus.controllerFrequencyTimerValuesRankL_1);
+                UpdateRefType(_controllerFrequencyTimerValues,(int)Offst_CncControllerConfigStatus.controllerFrequencyTimerValues);
                 return _controllerFrequencyTimerValues;
             }
             set {
-                SetRefType(_controllerFrequencyTimerValues,value,(int)Offst_CncControllerConfigStatus.controllerFrequencyTimerValuesRankL_1);
+                SetRefType(_controllerFrequencyTimerValues,value,(int)Offst_CncControllerConfigStatus.controllerFrequencyTimerValues);
             }
         }
         
@@ -10192,51 +10192,51 @@ namespace OosterhofDesign {
         
         public CncJointSts[] jointSts {
             get {
-                UpdateRefType(_jointSts,(int)Offst_CncControllerStatus.jointSts,typeof(CncJointSts));
+                UpdateRefType(_jointSts,(int)Offst_CncControllerStatus.jointSts,typeof(CncJointSts),(int)Offst_CncJointSts.TotalSize);
                 return _jointSts;
             }
         }
         
         public CncIoPortSts[] cpuIoSts {
             get {
-                UpdateRefType(_cpuIoSts,(int)Offst_CncControllerStatus.cpuIoSts,typeof(CncIoPortSts));
+                UpdateRefType(_cpuIoSts,(int)Offst_CncControllerStatus.cpuIoSts,typeof(CncIoPortSts),(int)Offst_CncIoPortSts.TotalSize);
                 return _cpuIoSts;
             }
         }
         
         public Int32[] gpioAvx2Present {
             get {
-                UpdateRefType(_gpioAvx2Present,(int)Offst_CncControllerStatus.gpioAvx2PresentRankL_1);
+                UpdateRefType(_gpioAvx2Present,(int)Offst_CncControllerStatus.gpioAvx2Present);
                 return _gpioAvx2Present;
             }
             set {
-                SetRefType(_gpioAvx2Present,value,(int)Offst_CncControllerStatus.gpioAvx2PresentRankL_1);
+                SetRefType(_gpioAvx2Present,value,(int)Offst_CncControllerStatus.gpioAvx2Present);
             }
         }
         
         public Int32[] gpioRLY8Present {
             get {
-                UpdateRefType(_gpioRLY8Present,(int)Offst_CncControllerStatus.gpioRLY8PresentRankL_1);
+                UpdateRefType(_gpioRLY8Present,(int)Offst_CncControllerStatus.gpioRLY8Present);
                 return _gpioRLY8Present;
             }
             set {
-                SetRefType(_gpioRLY8Present,value,(int)Offst_CncControllerStatus.gpioRLY8PresentRankL_1);
+                SetRefType(_gpioRLY8Present,value,(int)Offst_CncControllerStatus.gpioRLY8Present);
             }
         }
         
         public Int32[] gpioRLY24Present {
             get {
-                UpdateRefType(_gpioRLY24Present,(int)Offst_CncControllerStatus.gpioRLY24PresentRankL_1);
+                UpdateRefType(_gpioRLY24Present,(int)Offst_CncControllerStatus.gpioRLY24Present);
                 return _gpioRLY24Present;
             }
             set {
-                SetRefType(_gpioRLY24Present,value,(int)Offst_CncControllerStatus.gpioRLY24PresentRankL_1);
+                SetRefType(_gpioRLY24Present,value,(int)Offst_CncControllerStatus.gpioRLY24Present);
             }
         }
         
         public CncGpioPortSts[,] gpioSts {
             get {
-                UpdateRefType(_gpioSts,(int)Offst_CncControllerStatus.gpioSts,typeof(CncGpioPortSts));
+                UpdateRefType(_gpioSts,(int)Offst_CncControllerStatus.gpioSts,typeof(CncGpioPortSts),(int)Offst_CncGpioPortSts.TotalSize);
                 return _gpioSts;
             }
         }
@@ -10423,21 +10423,21 @@ namespace OosterhofDesign {
         
         public CncCartDouble machineCartesianPosition {
             get {
-                UpdateRefType(_machineCartesianPosition, (int)Offst_CncMotionStatus.machineCartesianPosition, typeof(CncMotionStatus));
+                UpdateRefType(_machineCartesianPosition, (int)Offst_CncMotionStatus.machineCartesianPosition);
                 return _machineCartesianPosition;
             }
         }
         
         public CncJointDouble machineJointPosition {
             get {
-                UpdateRefType(_machineJointPosition, (int)Offst_CncMotionStatus.machineJointPosition, typeof(CncMotionStatus));
+                UpdateRefType(_machineJointPosition, (int)Offst_CncMotionStatus.machineJointPosition);
                 return _machineJointPosition;
             }
         }
         
         public CncOffsetAndPlane activeOffsetAndPlane {
             get {
-                UpdateRefType(_activeOffsetAndPlane, (int)Offst_CncMotionStatus.activeOffsetAndPlane, typeof(CncMotionStatus));
+                UpdateRefType(_activeOffsetAndPlane, (int)Offst_CncMotionStatus.activeOffsetAndPlane);
                 return _activeOffsetAndPlane;
             }
         }
@@ -10605,37 +10605,37 @@ namespace OosterhofDesign {
         
         public Int32[] ActiveGCodes {
             get {
-                UpdateRefType(_ActiveGCodes,(int)Offst_CncRunningStatus.ActiveGCodesRankL_1);
+                UpdateRefType(_ActiveGCodes,(int)Offst_CncRunningStatus.ActiveGCodes);
                 return _ActiveGCodes;
             }
             set {
-                SetRefType(_ActiveGCodes,value,(int)Offst_CncRunningStatus.ActiveGCodesRankL_1);
+                SetRefType(_ActiveGCodes,value,(int)Offst_CncRunningStatus.ActiveGCodes);
             }
         }
         
         public Int32[] ActiveMCodes {
             get {
-                UpdateRefType(_ActiveMCodes,(int)Offst_CncRunningStatus.ActiveMCodesRankL_1);
+                UpdateRefType(_ActiveMCodes,(int)Offst_CncRunningStatus.ActiveMCodes);
                 return _ActiveMCodes;
             }
             set {
-                SetRefType(_ActiveMCodes,value,(int)Offst_CncRunningStatus.ActiveMCodesRankL_1);
+                SetRefType(_ActiveMCodes,value,(int)Offst_CncRunningStatus.ActiveMCodes);
             }
         }
         
         public Double[] ActiveGSettings {
             get {
-                UpdateRefType(_ActiveGSettings,(int)Offst_CncRunningStatus.ActiveGSettingsRankL_1);
+                UpdateRefType(_ActiveGSettings,(int)Offst_CncRunningStatus.ActiveGSettings);
                 return _ActiveGSettings;
             }
             set {
-                SetRefType(_ActiveGSettings,value,(int)Offst_CncRunningStatus.ActiveGSettingsRankL_1);
+                SetRefType(_ActiveGSettings,value,(int)Offst_CncRunningStatus.ActiveGSettings);
             }
         }
         
         public CncLogMessage lastIntError {
             get {
-                UpdateRefType(_lastIntError, (int)Offst_CncRunningStatus.lastIntError, typeof(CncRunningStatus));
+                UpdateRefType(_lastIntError, (int)Offst_CncRunningStatus.lastIntError);
                 return _lastIntError;
             }
         }
@@ -10788,21 +10788,21 @@ namespace OosterhofDesign {
         
         public Int32[] vacuumSectionConfigured {
             get {
-                UpdateRefType(_vacuumSectionConfigured,(int)Offst_CncVacuumStatus.vacuumSectionConfiguredRankL_1);
+                UpdateRefType(_vacuumSectionConfigured,(int)Offst_CncVacuumStatus.vacuumSectionConfigured);
                 return _vacuumSectionConfigured;
             }
             set {
-                SetRefType(_vacuumSectionConfigured,value,(int)Offst_CncVacuumStatus.vacuumSectionConfiguredRankL_1);
+                SetRefType(_vacuumSectionConfigured,value,(int)Offst_CncVacuumStatus.vacuumSectionConfigured);
             }
         }
         
         public Int32[] vacuumSectionCrossed {
             get {
-                UpdateRefType(_vacuumSectionCrossed,(int)Offst_CncVacuumStatus.vacuumSectionCrossedRankL_1);
+                UpdateRefType(_vacuumSectionCrossed,(int)Offst_CncVacuumStatus.vacuumSectionCrossed);
                 return _vacuumSectionCrossed;
             }
             set {
-                SetRefType(_vacuumSectionCrossed,value,(int)Offst_CncVacuumStatus.vacuumSectionCrossedRankL_1);
+                SetRefType(_vacuumSectionCrossed,value,(int)Offst_CncVacuumStatus.vacuumSectionCrossed);
             }
         }
         
@@ -10875,112 +10875,112 @@ namespace OosterhofDesign {
         
         public CncRunningStatus runningStatus {
             get {
-                UpdateRefType(_runningStatus, (int)Offst_CncStatus.runningStatus, typeof(CncStatus));
+                UpdateRefType(_runningStatus, (int)Offst_CncStatus.runningStatus);
                 return _runningStatus;
             }
         }
         
         public CncMotionStatus motionStatus {
             get {
-                UpdateRefType(_motionStatus, (int)Offst_CncStatus.motionStatus, typeof(CncStatus));
+                UpdateRefType(_motionStatus, (int)Offst_CncStatus.motionStatus);
                 return _motionStatus;
             }
         }
         
         public CncControllerStatus controllerStatus {
             get {
-                UpdateRefType(_controllerStatus, (int)Offst_CncStatus.controllerStatus, typeof(CncStatus));
+                UpdateRefType(_controllerStatus, (int)Offst_CncStatus.controllerStatus);
                 return _controllerStatus;
             }
         }
         
         public CncControllerConfigStatus controllerConfigStatus {
             get {
-                UpdateRefType(_controllerConfigStatus, (int)Offst_CncStatus.controllerConfigStatus, typeof(CncStatus));
+                UpdateRefType(_controllerConfigStatus, (int)Offst_CncStatus.controllerConfigStatus);
                 return _controllerConfigStatus;
             }
         }
         
         public CncTrafficLightStatus trafficLichtStatus {
             get {
-                UpdateRefType(_trafficLichtStatus, (int)Offst_CncStatus.trafficLichtStatus, typeof(CncStatus));
+                UpdateRefType(_trafficLichtStatus, (int)Offst_CncStatus.trafficLichtStatus);
                 return _trafficLichtStatus;
             }
         }
         
         public CncJobStatus jobStatus {
             get {
-                UpdateRefType(_jobStatus, (int)Offst_CncStatus.jobStatus, typeof(CncStatus));
+                UpdateRefType(_jobStatus, (int)Offst_CncStatus.jobStatus);
                 return _jobStatus;
             }
         }
         
         public CncTrackingStatus trackingStatus {
             get {
-                UpdateRefType(_trackingStatus, (int)Offst_CncStatus.trackingStatus, typeof(CncStatus));
+                UpdateRefType(_trackingStatus, (int)Offst_CncStatus.trackingStatus);
                 return _trackingStatus;
             }
         }
         
         public CncThcStatus thcStatus {
             get {
-                UpdateRefType(_thcStatus, (int)Offst_CncStatus.thcStatus, typeof(CncStatus));
+                UpdateRefType(_thcStatus, (int)Offst_CncStatus.thcStatus);
                 return _thcStatus;
             }
         }
         
         public CncNestingStatus nestingStatus {
             get {
-                UpdateRefType(_nestingStatus, (int)Offst_CncStatus.nestingStatus, typeof(CncStatus));
+                UpdateRefType(_nestingStatus, (int)Offst_CncStatus.nestingStatus);
                 return _nestingStatus;
             }
         }
         
         public CncKinStatus kinStatus {
             get {
-                UpdateRefType(_kinStatus, (int)Offst_CncStatus.kinStatus, typeof(CncStatus));
+                UpdateRefType(_kinStatus, (int)Offst_CncStatus.kinStatus);
                 return _kinStatus;
             }
         }
         
         public CncSpindleSts spindleSts {
             get {
-                UpdateRefType(_spindleSts, (int)Offst_CncStatus.spindleSts, typeof(CncStatus));
+                UpdateRefType(_spindleSts, (int)Offst_CncStatus.spindleSts);
                 return _spindleSts;
             }
         }
         
         public CncPauseSts pauseSts {
             get {
-                UpdateRefType(_pauseSts, (int)Offst_CncStatus.pauseSts, typeof(CncStatus));
+                UpdateRefType(_pauseSts, (int)Offst_CncStatus.pauseSts);
                 return _pauseSts;
             }
         }
         
         public CncSearchStatus searchSts {
             get {
-                UpdateRefType(_searchSts, (int)Offst_CncStatus.searchSts, typeof(CncStatus));
+                UpdateRefType(_searchSts, (int)Offst_CncStatus.searchSts);
                 return _searchSts;
             }
         }
         
         public Cnc3dprintingSts print3DSts {
             get {
-                UpdateRefType(_print3DSts, (int)Offst_CncStatus.print3DSts, typeof(CncStatus));
+                UpdateRefType(_print3DSts, (int)Offst_CncStatus.print3DSts);
                 return _print3DSts;
             }
         }
         
         public CncCompensationStatus zHeightCompSts {
             get {
-                UpdateRefType(_zHeightCompSts, (int)Offst_CncStatus.zHeightCompSts, typeof(CncStatus));
+                UpdateRefType(_zHeightCompSts, (int)Offst_CncStatus.zHeightCompSts);
                 return _zHeightCompSts;
             }
         }
         
         public CncVacuumStatus vacuumStatus {
             get {
-                UpdateRefType(_vacuumStatus, (int)Offst_CncStatus.vacuumStatus, typeof(CncStatus));
+                UpdateRefType(_vacuumStatus, (int)Offst_CncStatus.vacuumStatus);
                 return _vacuumStatus;
             }
         }
@@ -11038,7 +11038,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble pos {
             get {
-                UpdateRefType(_pos, (int)Offst_CncPosFifoData.pos, typeof(CncPosFifoData));
+                UpdateRefType(_pos, (int)Offst_CncPosFifoData.pos);
                 return _pos;
             }
         }
@@ -11099,7 +11099,7 @@ namespace OosterhofDesign {
         
         public CncCartDouble pos {
             get {
-                UpdateRefType(_pos, (int)Offst_CncGraphFifoData.pos, typeof(CncGraphFifoData));
+                UpdateRefType(_pos, (int)Offst_CncGraphFifoData.pos);
                 return _pos;
             }
         }
@@ -11184,21 +11184,21 @@ namespace OosterhofDesign {
         
         public CncCartDouble pos {
             get {
-                UpdateRefType(_pos, (int)Offst_CncRenderData.pos, typeof(CncRenderData));
+                UpdateRefType(_pos, (int)Offst_CncRenderData.pos);
                 return _pos;
             }
         }
         
         public CncVector center {
             get {
-                UpdateRefType(_center, (int)Offst_CncRenderData.center, typeof(CncRenderData));
+                UpdateRefType(_center, (int)Offst_CncRenderData.center);
                 return _center;
             }
         }
         
         public CncVector normal {
             get {
-                UpdateRefType(_normal, (int)Offst_CncRenderData.normal, typeof(CncRenderData));
+                UpdateRefType(_normal, (int)Offst_CncRenderData.normal);
                 return _normal;
             }
         }
@@ -11214,7 +11214,7 @@ namespace OosterhofDesign {
         
         public CncOffsetAndPlane offsetAndPlane {
             get {
-                UpdateRefType(_offsetAndPlane, (int)Offst_CncRenderData.offsetAndPlane, typeof(CncRenderData));
+                UpdateRefType(_offsetAndPlane, (int)Offst_CncRenderData.offsetAndPlane);
                 return _offsetAndPlane;
             }
         }
