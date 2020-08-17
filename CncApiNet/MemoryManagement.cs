@@ -337,25 +337,18 @@ namespace OosterhofDesign
 
         internal void SetRefType(int[] CNC_VAL_OBJECTS,int[] VALUE, int OFFSET)
         {
-            for(int i =0;i<CNC_VAL_OBJECTS.Length;i++)
+            for (int i = 0; i < CNC_VAL_OBJECTS.Length && i < VALUE.Length; i++)
             {
-                if(VALUE.Length < i)
-                {
-                    *((int*)(Pointer + OFFSET) + ((int)Offst_Int.TotalSize * i)) = VALUE[i];
-                    CNC_VAL_OBJECTS[i] = VALUE[i];
-                }
+                *((int*)(Pointer + OFFSET) + ((int)Offst_Int.TotalSize * i)) = VALUE[i];
+                CNC_VAL_OBJECTS[i] = VALUE[i];
             }
         }
         internal void SetRefType(double[] CNC_VAL_OBJECTS, double[] VALUE, int OFFSET)
         {
-            for (int i = 0; i < CNC_VAL_OBJECTS.Length; i++)
+            for (int i = 0; i < CNC_VAL_OBJECTS.Length && i < VALUE.Length; i++)
             {
-                if (VALUE.Length < i)
-                {
-                    *((double*)(Pointer + OFFSET) + ((int)Offst_Double.TotalSize * i)) = VALUE[i];
-                    CNC_VAL_OBJECTS[i] = VALUE[i];
-                }
-
+                *((double*)(Pointer + OFFSET) + ((int)Offst_Double.TotalSize * i)) = VALUE[i];
+                CNC_VAL_OBJECTS[i] = VALUE[i];
             }
         }
 
